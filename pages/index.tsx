@@ -1,5 +1,10 @@
+import { Header } from '../components/Header/Header';
+import { Container } from '@chakra-ui/react';
+
 export default function Home() {
   return (
-    <h1>Hello world!</h1>
-  )
+    <Container minW='100%'>
+      <Header />
+    </Container>
+  );
 }
