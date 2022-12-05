@@ -5,5 +5,6 @@ describe('Home', () => {
   it('should render home page', () => {
     render(<Home />);
     expect(screen.getByText('Shop')).toBeInTheDocument();
+    expect(screen.getByText('R$ 450.00')).toBeInTheDocument()
   });
 });
